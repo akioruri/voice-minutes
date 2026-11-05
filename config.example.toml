@@ -1,0 +1,19 @@
+[openrouter]
+api_key = "sk-or-v1-..."
+base_url = "https://openrouter.ai/api/v1"
+
+[transcription]
+model = "microsoft/mai-transcribe-2"
+segment_seconds = 3600
+response_format = "verbose_json"
+timestamp_granularities = ["segment"]
+
+[http]
+timeout_seconds = 120.0
+max_retries = 3
+max_concurrent = 4
+
+[summary]
+model = "minimax/minimax-m3"
+max_tokens = 16384
+prompt = "你是一名专业的会议纪要整理助手。请阅读用户提供的会议转写文本，输出一份结构化的会议纪要"

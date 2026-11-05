@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# cargo
+target
+
+# project
+config.toml
