@@ -1,0 +1,270 @@
+"audio.error.cannotCreateExporter" = "无法创建音频切片导出任务。";
+"audio.error.invalidDuration" = "无法读取音频时长。";
+"audio.error.noAudioTrack" = "所选文件没有可识别的音频轨道。";
+"audio.pause" = "暂停";
+"audio.play" = "播放";
+"audio.progress" = "播放进度";
+"audio.skipBackward" = "快退 15 秒";
+"audio.skipForward" = "快进 15 秒";
+
+"cloud.error.emptySummary" = "纪要内容为空";
+"cloud.error.http" = "%@ 请求失败（HTTP %lld）：%@";
+"cloud.error.invalidBaseURL" = "%@ API 地址格式不正确。";
+"cloud.error.invalidResponse" = "无法解析模型响应：%@";
+"cloud.error.missingAPIKey" = "请先在设置中填写 %@ API Key。";
+"cloud.error.noHTTPResponse" = "没有收到 HTTP 响应";
+
+"common.cancel" = "取消";
+"common.delete" = "删除";
+"common.done" = "完成";
+"common.export" = "导出";
+"common.ok" = "好";
+"common.retry" = "重试";
+"common.save" = "保存";
+
+"content.minutes" = "会议纪要";
+"content.transcriptSRT" = "逐字文本";
+"content.notes" = "重点记录";
+
+"error.busy" = "当前已有任务正在处理，请稍后再试。";
+"error.busyRetry" = "当前已有任务正在处理，请稍后重试。";
+"error.cannotDeleteDuringProcessing" = "处理期间不能删除会议。";
+"error.cannotDeleteFolderWhileRecording" = "录音期间不能删除文件夹。";
+"error.cannotEmptyTrashDuringProcessing" = "处理期间不能清空最近删除。";
+"error.configureProviders" = "请先在设置中配置转写和纪要 Provider 的 API Key。";
+"error.emptyTranscript" = "模型没有返回可用的带时间戳文字稿。请确认所选转写模型支持 segment 时间戳。";
+"error.operationFailed" = "操作失败";
+"error.previousProcessingInterrupted" = "上次处理被中断，请重试。";
+"error.recordingInterrupted" = "录音未正常结束，应用可能在录音过程中退出了。";
+"error.saveLibrary" = "无法保存会议数据：%@";
+"error.unknown" = "未知错误";
+
+"export.error.cannotCreateContext" = "无法创建 PDF 页面上下文。";
+"export.error.cannotCreateOutput" = "无法创建 PDF 输出。";
+"export.error.cannotOpenExporter" = "无法打开系统文件导出器。";
+"export.filenameMinutes" = "%@-纪要.%@";
+"export.filenameTranscript" = "%@-文字稿.%@";
+"export.markdown" = "导出会议纪要(Markdown)";
+"export.pdf" = "导出会议纪要(PDF)";
+"export.srt" = "导出逐字稿(SRT)";
+
+"folder.deleteAction" = "删除文件夹并移入最近删除";
+"folder.deleteMessage" = "“%@”中的 %lld 个会议会移入“最近删除”。";
+"folder.deleteTitle" = "删除文件夹？";
+"folder.namePlaceholder" = "文件夹名称";
+"folder.new" = "新建文件夹";
+"folder.rename" = "重命名";
+"folder.renameTitle" = "重命名文件夹";
+"folder.section" = "文件夹";
+"folder.uncategorized" = "未分类";
+
+"library.allMinutes" = "所有纪要";
+"library.navigationTitle" = "纪要";
+"library.recentlyDeleted" = "最近删除";
+
+"list.selectContentDescription" = "在左侧选择所有纪要、最近删除或文件夹。";
+"list.selectContentTitle" = "选择内容";
+"list.noResultsDescription" = "没有会议匹配“%@”。";
+"list.noResultsTitle" = "无结果";
+"list.searchPrompt" = "搜索会议";
+"list.searchEmpty" = "没有匹配的会议";
+
+"meeting.deletePermanently" = "永久删除";
+"meeting.deletedDescription" = "请从左侧选择其他会议。";
+"meeting.deletedTitle" = "会议已删除";
+"meeting.emptyDescription" = "导入录音或开始一段新录音。";
+"meeting.emptyTitle" = "暂无会议";
+"menu.importAudio" = "导入音频…";
+"menu.startRecording" = "开始录音";
+"menu.stopRecording" = "停止录音";
+"meeting.generatedTitle" = "会议 %@";
+"meeting.importAudio" = "导入音频";
+"meeting.importRecording" = "导入录音";
+"meeting.moveToFolder" = "移动到文件夹";
+"meeting.processing" = "正在处理会议";
+"meeting.processingFailedDescription" = "检查设置后可以重试。";
+"meeting.processingFailedTitle" = "处理失败";
+"meeting.restore" = "恢复";
+"meeting.rename" = "重命名";
+"meeting.renamePlaceholder" = "纪要标题";
+"meeting.renameTitle" = "重命名纪要";
+"meeting.select.description" = "从第二层任务列表中选择一条纪要查看详情。";
+"meeting.select.title" = "选择会议任务";
+"meeting.showContent" = "显示内容";
+"meeting.showMinutes" = "显示会议纪要";
+"meeting.showSRT" = "显示 SRT";
+"meeting.tasks" = "会议";
+"meeting.transcriptEmptyDescription" = "转写完成后，这里会显示逐行文字稿。";
+"meeting.transcriptEmptyTitle" = "暂无文字稿";
+
+"notes.placeholder" = "记录会议重点、结论与待办。停止录音后，将随文字稿一起发送给模型生成纪要。";
+
+"progress.chunks" = "已并行完成 %lld/%lld 段";
+"progress.completed" = "已完成";
+"progress.generatingMinutes" = "生成会议纪要";
+"progress.localTranscription" = "正在使用 Apple 本地模型识别";
+"progress.prepareAudio" = "准备音频";
+
+"provider.openAICompatible" = "自定义 OpenAI 兼容";
+
+"recording.error.cannotStart" = "无法开始录音。";
+"recording.error.permissionDenied" = "没有麦克风权限，请在系统设置中允许录音。";
+"recording.inProgress" = "正在录音";
+"recording.start" = "开始录音";
+"recording.stop" = "停止录音";
+"recording.stopAndProcess" = "停止并处理";
+
+"settings.action" = "设置";
+"settings.apiKey" = "API Key";
+"settings.apiURL" = "API 地址";
+"settings.checkAndDownloadLocalModel" = "检查并下载本地模型";
+"settings.checkingAppleSpeechResources" = "正在检查 Apple 语音资源";
+"settings.downloadingLocalModel" = "正在下载本地模型";
+"settings.enterRecognitionLanguage" = "请先填写识别语言代码。";
+"settings.error.cannotSave" = "无法保存设置";
+"settings.error.emptyBaseURL" = "%@ 的 API 地址不能为空。";
+"settings.error.emptyLocalLocale" = "Apple 本地识别语言不能为空。";
+"settings.error.emptyModel" = "%@ 的模型名称不能为空。";
+"settings.error.emptyPrompt" = "会议纪要提示词不能为空。";
+"settings.error.keychain" = "无法保存 API Key（Keychain 状态码：%lld）。";
+"settings.interfaceLanguage" = "界面语言";
+"settings.interfaceLanguageFooter" = "用于 App 内界面文案和日期格式。";
+"settings.interfaceSection" = "语言";
+"settings.localModelReady" = "本地识别模型已就绪。";
+"settings.localRecognitionDescription" = "首次使用会下载 Apple 语音资源。本地识别不上传音频，但会议纪要仍需要云端模型。";
+"settings.meetingMinutes" = "会议纪要";
+"settings.miniMaxDescription" = "MiniMax 单次音频最多 500 秒，App 会按约 8 分钟切片，并最多并行发送 2 段。";
+"settings.navigationTitle" = "Voice Minutes 设置";
+"settings.promptSection" = "会议纪要提示词";
+"settings.provider" = "Provider";
+"settings.providerNote" = "转写和纪要可以选择不同 Provider，API Key 分别保存在 Keychain。";
+"settings.recognitionLanguageCode" = "识别语言代码";
+"settings.restoreDefaultPrompt" = "恢复默认提示词";
+"settings.segmentDescription" = "需要 SRT 时间戳时会请求 segment 级结果。OpenAI 默认使用 whisper-1。";
+"settings.summaryModel" = "纪要模型";
+"settings.transcriptionModel" = "转写模型";
+"settings.useAppleLocalTranscription" = "使用 Apple 本地识别";
+"settings.voiceRecognition" = "语音识别";
+
+"speech.error.analysisFailed" = "Apple 本地识别失败：%@";
+"speech.error.audioFileUnavailable" = "本地识别无法读取该音频：%@";
+"speech.error.emptyTranscript" = "Apple 本地识别没有返回可用文字。";
+"speech.error.modelUnavailable" = "Apple 本地语音模型下载失败：%@。请检查网络后重试，或切换到云端 Provider。";
+"speech.error.simulatorUnsupported" = "iOS 模拟器不支持 Apple 本地语音模型。请改用真机，或在设置中关闭本地识别并选择云端 Provider。";
+"speech.error.unsupportedDevice" = "当前设备不支持 Apple SpeechTranscriber 本地识别。";
+"speech.error.unsupportedLocale" = "Apple 本地识别暂不支持语言 %@。请尝试 zh-CN 或改用云端 Provider。";
+
+"status.completed" = "已完成";
+"status.failed" = "处理失败";
+"status.pending" = "等待处理";
+"status.processing" = "正在处理";
+
+"trash.emptyAction" = "清空";
+"trash.emptyConfirmMessage" = "最近删除中的所有会议将被永久删除，此操作无法撤销。";
+"trash.emptyConfirmTitle" = "清空最近删除？";
+"trash.emptyDescription" = "删除的纪要会暂时保留在这里。";
+"trash.emptyTitle" = "最近删除为空";
+
+"sync.audio" = "同步录音";
+"sync.audio.notSynced" = "此设备上没有这段录音。请在录制它的设备上开启“同步录音”，或在该设备上播放。";
+"sync.enable" = "通过 iCloud 同步";
+"sync.error.network" = "网络不可用，恢复联网后会自动同步。";
+"sync.error.purged" = "iCloud 数据已被重置。请关闭再开启同步，重新上传本资料库。";
+"sync.error.quota" = "iCloud 存储空间已满，请清理空间后继续同步。";
+"sync.footer" = "在登录同一 iCloud 账号的设备间同步文件夹、纪要、文字稿和设置。录音在点击播放时按需下载。API key 仅保存在各设备本地。";
+"sync.lastSync" = "上次同步：%@";
+"sync.status.disabled" = "同步已关闭";
+"sync.status.error" = "同步出错";
+"sync.status.noAccount" = "登录 iCloud 后即可同步";
+"sync.status.synced" = "已同步";
+"sync.status.syncing" = "同步中…";
+"sync.status.unavailable" = "iCloud 同步不可用";
+"sync.title" = "iCloud 同步";
+
+"analysis.action" = "解析";
+"analysis.regenerate" = "重新解析";
+"analysis.running" = "解析中…";
+
+"mark.convert" = "转为重点";
+"mark.delete" = "删除标记";
+"mark.emptyLabel" = "标记";
+"mark.labelPlaceholder" = "标签（可选）";
+"mark.section" = "时间标记";
+
+"notes.block.add" = "新增重点";
+"notes.block.delete" = "删除";
+"notes.block.deleteMessage" = "内容与解析将被删除。";
+"notes.block.deleteTitle" = "删除这条重点？";
+"notes.block.placeholder" = "重点内容…";
+
+"recording.addNote" = "记录重点";
+"recording.mark" = "打点";
+
+"regen.full" = "重新转写并总结";
+"regen.needAudio" = "重新转写需要录音文件。";
+"regen.summarizeOnly" = "仅重新总结";
+"regen.title" = "重新生成";
+
+"analysis.markAction" = "总结";
+"analysis.markRegenerate" = "重新总结";
+
+"settings.analysisPromptFooter" = "解析使用总结模型。时间标记基于其时间点附近的逐字稿进行总结。";
+"settings.autoAnalyzeMarks" = "自动总结时间标记";
+"settings.keyPointPromptSection" = "重点解析提示词";
+"settings.markPromptSection" = "时间标记总结";
+"settings.restoreDefaultKeyPointPrompt" = "恢复默认提示词";
+"settings.restoreDefaultMarkPrompt" = "恢复默认提示词";
+
+"analysis.generatedLabel" = "AI 解析";
+
+"prompt.builtin.minutes" = "
+你是一名专业的会议纪要助手。请严格根据提供的文字稿整理纪要，不得补充文字稿中没有出现的事实。
+
+请输出 Markdown，并包含以下部分：
+# 会议纪要
+## 会议摘要
+## 讨论要点
+## 结论与决策
+## 待办事项
+## 风险与待确认问题
+
+待办事项请使用 Markdown 表格，包含任务、负责人和截止时间；文字稿未提供的字段填写“未明确”。
+合并重复信息，保留关键数字、专有名词和不同意见。
+";
+"prompt.builtin.keyPoint" = "你是一位会议总结助手，请依据该会议逐字稿总结并解析一下重点内容";
+"prompt.builtin.mark" = "
+你是一位会议总结助手。请依据该会议逐字稿，针对指定时间点附近的讨论内容进行总结与解析：
+说明该时间点前后讨论了什么、得出的关键结论，以及涉及的待办事项。
+只使用文字稿中出现的事实，不得虚构。输出 Markdown。
+";
+
+"folder.promptMenu" = "纪要提示词";
+"folder.useGlobalPrompt" = "使用全局默认";
+
+"settings.addPrompt" = "新建提示词";
+"settings.aiDescriptionPlaceholder" = "描述你想要的纪要风格或侧重点…";
+"settings.aiGeneratePrompt" = "AI 生成提示词";
+"settings.aiGenerating" = "生成中…";
+"settings.aiPromptName" = "AI 生成";
+"settings.builtinDefault" = "内置默认";
+"settings.customPromptName" = "自定义提示词";
+"settings.globalDefaultPrompt" = "全局默认";
+"settings.promptLibrary" = "提示词库";
+"settings.promptName" = "名称";
+"settings.untitledPrompt" = "未命名提示词";
+
+"settings.aiGenerateFooter" = "输入描述后点击生成，AI 会在内置模板基础上修改并保存为新提示词，可在上方编辑。需使用总结模型。";
+"settings.aiGenerateSuccess" = "已生成并选中新提示词，可在上方编辑。";
+"settings.aiNeedsSummary" = "请先在上方配置总结模型与 API key。";
+
+"settings.promptNameFooter" = "名称重复时会自动追加编号。";
+"settings.promptsTitle" = "提示词";
+
+"settings.generalTitle" = "通用";
+
+"settings.analysisPromptsTitle" = "解析提示词";
+"settings.promptMissing" = "提示词不存在";
+"settings.setAsGlobalDefault" = "设为全局默认";
+
+"settings.analysisTitle" = "解析";
+"settings.modelsTitle" = "模型";

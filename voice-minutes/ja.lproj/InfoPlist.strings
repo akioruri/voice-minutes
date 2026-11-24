@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "Voice Minutes";
+"CFBundleName" = "Voice Minutes";
+"NSMicrophoneUsageDescription" = "会議音声を録音し、文字起こしと議事録を作成するために使用します。";
+"NSSpeechRecognitionUsageDescription" = "録音をオンデバイスでタイムスタンプ付きの文字起こしに変換するために使用します。";

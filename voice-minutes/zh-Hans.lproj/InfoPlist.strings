@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "语音纪要";
+"CFBundleName" = "语音纪要";
+"NSMicrophoneUsageDescription" = "用于录制会议音频并生成文字稿与会议纪要。";
+"NSSpeechRecognitionUsageDescription" = "用于在设备上将会话录音转换为带时间戳的文字稿。";

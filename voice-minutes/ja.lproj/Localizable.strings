@@ -1,0 +1,270 @@
+"audio.error.cannotCreateExporter" = "音声の書き出しタスクを作成できませんでした。";
+"audio.error.invalidDuration" = "音声の長さを読み取れませんでした。";
+"audio.error.noAudioTrack" = "選択したファイルに認識可能な音声トラックがありません。";
+"audio.pause" = "一時停止";
+"audio.play" = "再生";
+"audio.progress" = "再生位置";
+"audio.skipBackward" = "15秒戻る";
+"audio.skipForward" = "15秒進む";
+
+"cloud.error.emptySummary" = "議事録の内容が空です。";
+"cloud.error.http" = "%@ のリクエストに失敗しました（HTTP %lld）：%@";
+"cloud.error.invalidBaseURL" = "%@ の API URL が正しくありません。";
+"cloud.error.invalidResponse" = "モデルの応答を解析できません：%@";
+"cloud.error.missingAPIKey" = "設定で %@ の API キーを入力してください。";
+"cloud.error.noHTTPResponse" = "HTTP 応答を受信できませんでした。";
+
+"common.cancel" = "キャンセル";
+"common.delete" = "削除";
+"common.done" = "完了";
+"common.export" = "書き出す";
+"common.ok" = "OK";
+"common.retry" = "再試行";
+"common.save" = "保存";
+
+"content.minutes" = "議事録";
+"content.transcriptSRT" = "逐語テキスト";
+"content.notes" = "重点記録";
+
+"error.busy" = "別のタスクを処理中です。しばらくしてから再試行してください。";
+"error.busyRetry" = "別のタスクを処理中です。後でもう一度お試しください。";
+"error.cannotDeleteDuringProcessing" = "処理中は会議を削除できません。";
+"error.cannotDeleteFolderWhileRecording" = "録音中はフォルダを削除できません。";
+"error.cannotEmptyTrashDuringProcessing" = "処理中は「最近削除した項目」を空にできません。";
+"error.configureProviders" = "先に設定で文字起こしと議事録の API キーを構成してください。";
+"error.emptyTranscript" = "タイムスタンプ付きの文字起こしを取得できませんでした。選択したモデルがセグメントのタイムスタンプに対応しているか確認してください。";
+"error.operationFailed" = "操作に失敗しました";
+"error.previousProcessingInterrupted" = "前回の処理が中断されました。再試行してください。";
+"error.recordingInterrupted" = "録音が完了しませんでした。録音中にアプリが終了した可能性があります。";
+"error.saveLibrary" = "会議データを保存できません：%@";
+"error.unknown" = "不明なエラー";
+
+"export.error.cannotCreateContext" = "PDF ページのコンテキストを作成できませんでした。";
+"export.error.cannotCreateOutput" = "PDF 出力を作成できませんでした。";
+"export.error.cannotOpenExporter" = "システムのファイル書き出し画面を開けませんでした。";
+"export.filenameMinutes" = "%@-議事録.%@";
+"export.filenameTranscript" = "%@-文字起こし.%@";
+"export.markdown" = "議事録を書き出す(Markdown)";
+"export.pdf" = "議事録を書き出す(PDF)";
+"export.srt" = "逐語録を書き出す(SRT)";
+
+"folder.deleteAction" = "フォルダを削除して最近削除した項目に移動";
+"folder.deleteMessage" = "「%@」内の %lld 件の会議が「最近削除した項目」に移動します。";
+"folder.deleteTitle" = "フォルダを削除しますか？";
+"folder.namePlaceholder" = "フォルダ名";
+"folder.new" = "新規フォルダ";
+"folder.rename" = "名前を変更";
+"folder.renameTitle" = "フォルダ名を変更";
+"folder.section" = "フォルダ";
+"folder.uncategorized" = "未分類";
+
+"library.allMinutes" = "すべての議事録";
+"library.navigationTitle" = "議事録";
+"library.recentlyDeleted" = "最近削除した項目";
+
+"list.selectContentDescription" = "左側からすべての議事録、最近削除した項目、またはフォルダを選択してください。";
+"list.selectContentTitle" = "項目を選択";
+"list.noResultsDescription" = "「%@」に一致する会議はありません。";
+"list.noResultsTitle" = "結果がありません";
+"list.searchPrompt" = "会議を検索";
+"list.searchEmpty" = "一致する会議がありません";
+
+"meeting.deletePermanently" = "完全に削除";
+"meeting.deletedDescription" = "左側から別の会議を選択してください。";
+"meeting.deletedTitle" = "会議は削除されました";
+"meeting.emptyDescription" = "録音を読み込むか、新しい録音を開始してください。";
+"meeting.emptyTitle" = "会議はまだありません";
+"menu.importAudio" = "オーディオを読み込む…";
+"menu.startRecording" = "録音を開始";
+"menu.stopRecording" = "録音を停止";
+"meeting.generatedTitle" = "会議 %@";
+"meeting.importAudio" = "音声を読み込む";
+"meeting.importRecording" = "録音を読み込む";
+"meeting.moveToFolder" = "フォルダへ移動";
+"meeting.processing" = "会議を処理中";
+"meeting.processingFailedDescription" = "設定を確認してから再試行してください。";
+"meeting.processingFailedTitle" = "処理に失敗しました";
+"meeting.restore" = "復元";
+"meeting.rename" = "名前を変更";
+"meeting.renamePlaceholder" = "会議名";
+"meeting.renameTitle" = "会議名を変更";
+"meeting.select.description" = "タスク一覧から会議を選択すると詳細を表示できます。";
+"meeting.select.title" = "会議を選択";
+"meeting.showContent" = "表示内容";
+"meeting.showMinutes" = "議事録を表示";
+"meeting.showSRT" = "SRT を表示";
+"meeting.tasks" = "会議";
+"meeting.transcriptEmptyDescription" = "転写が完了すると、ここに行ごとの文字稿が表示されます。";
+"meeting.transcriptEmptyTitle" = "文字稿はありません";
+
+"notes.placeholder" = "要点・決定・タスクをメモできます。録音を停止すると、文字稿と一緒にモデルへ送信され、議事録に反映されます。";
+
+"progress.chunks" = "%lld/%lld セグメントの並列処理が完了しました";
+"progress.completed" = "完了";
+"progress.generatingMinutes" = "議事録を生成中";
+"progress.localTranscription" = "Apple オンデバイスモデルで文字起こし中";
+"progress.prepareAudio" = "音声を準備中";
+
+"provider.openAICompatible" = "カスタム OpenAI 互換";
+
+"recording.error.cannotStart" = "録音を開始できませんでした。";
+"recording.error.permissionDenied" = "マイクへのアクセスが許可されていません。システム設定で録音を許可してください。";
+"recording.inProgress" = "録音中";
+"recording.start" = "録音を開始";
+"recording.stop" = "録音を停止";
+"recording.stopAndProcess" = "停止して処理";
+
+"settings.action" = "設定";
+"settings.apiKey" = "API キー";
+"settings.apiURL" = "API URL";
+"settings.checkAndDownloadLocalModel" = "オンデバイスモデルを確認してダウンロード";
+"settings.checkingAppleSpeechResources" = "Apple の音声リソースを確認中";
+"settings.downloadingLocalModel" = "オンデバイスモデルをダウンロード中";
+"settings.enterRecognitionLanguage" = "先に認識言語コードを入力してください。";
+"settings.error.cannotSave" = "設定を保存できません";
+"settings.error.emptyBaseURL" = "%@ の API URL を入力してください。";
+"settings.error.emptyLocalLocale" = "Apple オンデバイス認識の言語を入力してください。";
+"settings.error.emptyModel" = "%@ のモデル名を入力してください。";
+"settings.error.emptyPrompt" = "議事録プロンプトを入力してください。";
+"settings.error.keychain" = "API キーを保存できません（Keychain ステータス：%lld）。";
+"settings.interfaceLanguage" = "表示言語";
+"settings.interfaceLanguageFooter" = "アプリの表示と日付形式に適用されます。";
+"settings.interfaceSection" = "言語";
+"settings.localModelReady" = "オンデバイス認識モデルの準備ができました。";
+"settings.localRecognitionDescription" = "初回使用時に Apple の音声リソースをダウンロードします。音声はオンデバイスで処理されますが、議事録の生成にはクラウドモデルが必要です。";
+"settings.meetingMinutes" = "議事録";
+"settings.miniMaxDescription" = "MiniMax は 1 回のリクエストで最大 500 秒の音声を受け付けます。アプリは約 8 分ごとに分割し、最大 2 セグメントを並列送信します。";
+"settings.navigationTitle" = "Voice Minutes 設定";
+"settings.promptSection" = "議事録プロンプト";
+"settings.provider" = "プロバイダー";
+"settings.providerNote" = "文字起こしと議事録には別々のプロバイダーを選択できます。API キーはそれぞれ Keychain に保存されます。";
+"settings.recognitionLanguageCode" = "認識言語コード";
+"settings.restoreDefaultPrompt" = "デフォルトのプロンプトに戻す";
+"settings.segmentDescription" = "SRT のタイムスタンプにはセグメント単位の結果が必要です。OpenAI はデフォルトで whisper-1 を使用します。";
+"settings.summaryModel" = "議事録モデル";
+"settings.transcriptionModel" = "文字起こしモデル";
+"settings.useAppleLocalTranscription" = "Apple オンデバイス認識を使用";
+"settings.voiceRecognition" = "音声認識";
+
+"speech.error.analysisFailed" = "Apple オンデバイス認識に失敗しました：%@";
+"speech.error.audioFileUnavailable" = "オンデバイス認識でこの音声を読み取れません：%@";
+"speech.error.emptyTranscript" = "Apple オンデバイス認識から有効なテキストが返されませんでした。";
+"speech.error.modelUnavailable" = "Apple オンデバイス音声モデルをダウンロードできませんでした：%@。接続を確認して再試行するか、クラウドプロバイダーに切り替えてください。";
+"speech.error.simulatorUnsupported" = "iOS シミュレータでは Apple オンデバイス音声モデルを使用できません。実機を使用するか、オンデバイス認識をオフにしてクラウドプロバイダーを選択してください。";
+"speech.error.unsupportedDevice" = "このデバイスは Apple SpeechTranscriber のオンデバイス認識に対応していません。";
+"speech.error.unsupportedLocale" = "Apple オンデバイス認識は %@ にまだ対応していません。zh-CN を試すか、クラウドプロバイダーを使用してください。";
+
+"status.completed" = "完了";
+"status.failed" = "失敗";
+"status.pending" = "待機中";
+"status.processing" = "処理中";
+
+"trash.emptyAction" = "空にする";
+"trash.emptyConfirmMessage" = "「最近削除した項目」内のすべての会議が完全に削除され、元に戻せません。";
+"trash.emptyConfirmTitle" = "「最近削除した項目」を空にしますか？";
+"trash.emptyDescription" = "削除した会議は一時的にここに保持されます。";
+"trash.emptyTitle" = "最近削除した項目は空です";
+
+"sync.audio" = "録音を同期";
+"sync.audio.notSynced" = "このデバイスには録音がありません。録音したデバイスで「録音を同期」をオンにするか、そのデバイスで再生してください。";
+"sync.enable" = "iCloud で同期";
+"sync.error.network" = "ネットワークに接続できません。オンラインに戻ると自動的に同期されます。";
+"sync.error.purged" = "iCloud データがリセットされました。同期をオフにしてから再度オンにし、ライブラリを再アップロードしてください。";
+"sync.error.quota" = "iCloud のストレージがいっぱいです。空き容量を確保すると同期を続行できます。";
+"sync.footer" = "同じ iCloud アカウントにサインインしたデバイス間で、フォルダ・議事録・文字起こし・設定を同期します。録音は再生時に必要に応じてダウンロードされます。API キーは各デバイスにのみ保存されます。";
+"sync.lastSync" = "最終同期：%@";
+"sync.status.disabled" = "同期はオフ";
+"sync.status.error" = "同期エラー";
+"sync.status.noAccount" = "iCloud にサインインすると同期できます";
+"sync.status.synced" = "同期済み";
+"sync.status.syncing" = "同期中…";
+"sync.status.unavailable" = "iCloud 同期は利用できません";
+"sync.title" = "iCloud 同期";
+
+"analysis.action" = "解析";
+"analysis.regenerate" = "再解析";
+"analysis.running" = "解析中…";
+
+"mark.convert" = "重点に変換";
+"mark.delete" = "マークを削除";
+"mark.emptyLabel" = "マーク";
+"mark.labelPlaceholder" = "ラベル（任意）";
+"mark.section" = "タイムマーク";
+
+"notes.block.add" = "重点を追加";
+"notes.block.delete" = "削除";
+"notes.block.deleteMessage" = "内容と解析が削除されます。";
+"notes.block.deleteTitle" = "この重点を削除しますか？";
+"notes.block.placeholder" = "重点内容…";
+
+"recording.addNote" = "重点を記録";
+"recording.mark" = "マーク";
+
+"regen.full" = "文字起こし＋要約を再生成";
+"regen.needAudio" = "再文字起こしには録音ファイルが必要です。";
+"regen.summarizeOnly" = "要約のみ再生成";
+"regen.title" = "再生成";
+
+"analysis.markAction" = "要約";
+"analysis.markRegenerate" = "再要約";
+
+"settings.analysisPromptFooter" = "解析は要約モデルを使用します。タイムマークはその時点前後の文字起こしに基づいて要約されます。";
+"settings.autoAnalyzeMarks" = "タイムマークを自動要約";
+"settings.keyPointPromptSection" = "重点解析プロンプト";
+"settings.markPromptSection" = "タイムマーク要約";
+"settings.restoreDefaultKeyPointPrompt" = "デフォルトプロンプトに戻す";
+"settings.restoreDefaultMarkPrompt" = "デフォルトプロンプトに戻す";
+
+"analysis.generatedLabel" = "AI 解析";
+
+"prompt.builtin.minutes" = "
+あなたはプロの議事録アシスタントです。提供された文字起こしのみに厳密に基づいて議事録を作成し、文字起こしにない事実を補わないでください。
+
+Markdown で出力し、次のセクションを含めてください：
+# 議事録
+## 会議概要
+## 論点
+## 結論と決定事項
+## ToDo
+## リスクと未確認事項
+
+ToDo は Markdown の表にし、タスク・担当者・期限を含めてください。文字起こしにない項目は「未明確」と記入してください。
+重複情報を統合し、重要な数字・固有名詞・異なる意見を保持してください。
+";
+"prompt.builtin.keyPoint" = "あなたは会議要約アシスタントです。会議の文字起こしに基づいて重点内容を要約・解析してください。";
+"prompt.builtin.mark" = "
+あなたは会議要約アシスタントです。会議の文字起こしに基づき、指定された時点前後の討論内容を要約・解析してください：
+その時点の前後で何が議論され、どんな重要な結論に至り、どんな ToDo があるかを説明してください。
+文字起こしにある事実のみを使用し、捏造しないでください。Markdown で出力してください。
+";
+
+"folder.promptMenu" = "議事録プロンプト";
+"folder.useGlobalPrompt" = "グローバルデフォルトを使用";
+
+"settings.addPrompt" = "新規プロンプト";
+"settings.aiDescriptionPlaceholder" = "希望するスタイルや重点を記述…";
+"settings.aiGeneratePrompt" = "AI で生成";
+"settings.aiGenerating" = "生成中…";
+"settings.aiPromptName" = "AI 生成";
+"settings.builtinDefault" = "組み込みデフォルト";
+"settings.customPromptName" = "カスタムプロンプト";
+"settings.globalDefaultPrompt" = "グローバルデフォルト";
+"settings.promptLibrary" = "プロンプトライブラリ";
+"settings.promptName" = "名前";
+"settings.untitledPrompt" = "無題のプロンプト";
+
+"settings.aiGenerateFooter" = "希望する内容を入力して生成をクリックすると、AI が組み込みテンプレートを修正し、新しいプロンプトとして保存します（上で編集可能）。要約モデルが必要です。";
+"settings.aiGenerateSuccess" = "新しいプロンプトを生成して選択しました。上で編集できます。";
+"settings.aiNeedsSummary" = "先に上で要約モデルと API キーを設定してください。";
+
+"settings.promptNameFooter" = "名前が重複すると自動的に番号が付きます。";
+"settings.promptsTitle" = "プロンプト";
+
+"settings.generalTitle" = "一般";
+
+"settings.analysisPromptsTitle" = "解析プロンプト";
+"settings.promptMissing" = "プロンプトが見つかりません";
+"settings.setAsGlobalDefault" = "グローバルデフォルトに設定";
+
+"settings.analysisTitle" = "解析";
+"settings.modelsTitle" = "モデル";

@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "Voice Minutes";
+"CFBundleName" = "Voice Minutes";
+"NSMicrophoneUsageDescription" = "Records meeting audio to create transcripts and meeting minutes.";
+"NSSpeechRecognitionUsageDescription" = "Transcribes recordings on-device into a timestamped transcript.";

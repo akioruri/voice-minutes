@@ -1,0 +1,270 @@
+"audio.error.cannotCreateExporter" = "Couldn't create the audio export task.";
+"audio.error.invalidDuration" = "Couldn't read the audio duration.";
+"audio.error.noAudioTrack" = "The selected file has no recognizable audio track.";
+"audio.pause" = "Pause";
+"audio.play" = "Play";
+"audio.progress" = "Playback position";
+"audio.skipBackward" = "Skip back 15 seconds";
+"audio.skipForward" = "Skip forward 15 seconds";
+
+"cloud.error.emptySummary" = "The meeting minutes were empty.";
+"cloud.error.http" = "%@ request failed (HTTP %lld): %@";
+"cloud.error.invalidBaseURL" = "The %@ API URL is invalid.";
+"cloud.error.invalidResponse" = "Couldn't parse the model response: %@";
+"cloud.error.missingAPIKey" = "Enter an API key for %@ in Settings first.";
+"cloud.error.noHTTPResponse" = "No HTTP response was received.";
+
+"common.cancel" = "Cancel";
+"common.delete" = "Delete";
+"common.done" = "Done";
+"common.export" = "Export";
+"common.ok" = "OK";
+"common.retry" = "Retry";
+"common.save" = "Save";
+
+"content.minutes" = "Meeting Minutes";
+"content.transcriptSRT" = "Verbatim Transcript";
+"content.notes" = "Key Notes";
+
+"error.busy" = "Another task is already being processed. Please try again later.";
+"error.busyRetry" = "Another task is already being processed. Please retry later.";
+"error.cannotDeleteDuringProcessing" = "Meetings can't be deleted while processing.";
+"error.cannotDeleteFolderWhileRecording" = "Folders can't be deleted while recording.";
+"error.cannotEmptyTrashDuringProcessing" = "Recently Deleted can't be emptied while processing.";
+"error.configureProviders" = "Configure API keys for transcription and meeting minutes in Settings first.";
+"error.emptyTranscript" = "The model returned no usable timestamped transcript. Make sure the selected transcription model supports segment timestamps.";
+"error.operationFailed" = "Operation Failed";
+"error.previousProcessingInterrupted" = "The previous processing task was interrupted. Please retry.";
+"error.recordingInterrupted" = "The recording did not finish. The app may have quit while recording.";
+"error.saveLibrary" = "Couldn't save meeting data: %@";
+"error.unknown" = "Unknown Error";
+
+"export.error.cannotCreateContext" = "Couldn't create the PDF page context.";
+"export.error.cannotCreateOutput" = "Couldn't create the PDF output.";
+"export.error.cannotOpenExporter" = "Couldn't open the system file exporter.";
+"export.filenameMinutes" = "%@-Minutes.%@";
+"export.filenameTranscript" = "%@-Transcript.%@";
+"export.markdown" = "Export Minutes (Markdown)";
+"export.pdf" = "Export Minutes (PDF)";
+"export.srt" = "Export Transcript (SRT)";
+
+"folder.deleteAction" = "Delete Folder and Move to Recently Deleted";
+"folder.deleteMessage" = "The %lld meetings in “%@” will be moved to Recently Deleted.";
+"folder.deleteTitle" = "Delete Folder?";
+"folder.namePlaceholder" = "Folder Name";
+"folder.new" = "New Folder";
+"folder.rename" = "Rename";
+"folder.renameTitle" = "Rename Folder";
+"folder.section" = "Folders";
+"folder.uncategorized" = "Uncategorized";
+
+"library.allMinutes" = "All Minutes";
+"library.navigationTitle" = "Minutes";
+"library.recentlyDeleted" = "Recently Deleted";
+
+"list.selectContentDescription" = "Choose All Minutes, Recently Deleted, or a folder on the left.";
+"list.selectContentTitle" = "Select Content";
+"list.noResultsDescription" = "No meetings match “%@”.";
+"list.noResultsTitle" = "No Results";
+"list.searchPrompt" = "Search Meetings";
+"list.searchEmpty" = "No matching meetings";
+
+"meeting.deletePermanently" = "Delete Permanently";
+"meeting.deletedDescription" = "Choose another meeting from the left.";
+"meeting.deletedTitle" = "Meeting Deleted";
+"meeting.emptyDescription" = "Import a recording or start a new one.";
+"meeting.emptyTitle" = "No Meetings Yet";
+"menu.importAudio" = "Import Audio…";
+"menu.startRecording" = "Start Recording";
+"menu.stopRecording" = "Stop Recording";
+"meeting.generatedTitle" = "Meeting %@";
+"meeting.importAudio" = "Import Audio";
+"meeting.importRecording" = "Import Recording";
+"meeting.moveToFolder" = "Move to Folder";
+"meeting.processing" = "Processing Meeting";
+"meeting.processingFailedDescription" = "Check Settings, then retry.";
+"meeting.processingFailedTitle" = "Processing Failed";
+"meeting.restore" = "Restore";
+"meeting.rename" = "Rename";
+"meeting.renamePlaceholder" = "Meeting Title";
+"meeting.renameTitle" = "Rename Meeting";
+"meeting.select.description" = "Select a meeting in the task list to view its details.";
+"meeting.select.title" = "Select a Meeting";
+"meeting.showContent" = "Show Content";
+"meeting.showMinutes" = "Show Meeting Minutes";
+"meeting.showSRT" = "Show SRT";
+"meeting.tasks" = "Meetings";
+"meeting.transcriptEmptyDescription" = "The line-by-line transcript appears here once transcription finishes.";
+"meeting.transcriptEmptyTitle" = "No Transcript";
+
+"notes.placeholder" = "Jot down key points, decisions, and to-dos. When the recording stops they are sent to the model together with the transcript to generate the minutes.";
+
+"progress.chunks" = "Completed %lld of %lld segments in parallel";
+"progress.completed" = "Completed";
+"progress.generatingMinutes" = "Generating meeting minutes";
+"progress.localTranscription" = "Transcribing with Apple on-device models";
+"progress.prepareAudio" = "Preparing audio";
+
+"provider.openAICompatible" = "Custom OpenAI-Compatible";
+
+"recording.error.cannotStart" = "Couldn't start recording.";
+"recording.error.permissionDenied" = "Microphone access is denied. Allow recording in System Settings.";
+"recording.inProgress" = "Recording";
+"recording.start" = "Start Recording";
+"recording.stop" = "Stop Recording";
+"recording.stopAndProcess" = "Stop and Process";
+
+"settings.action" = "Settings";
+"settings.apiKey" = "API Key";
+"settings.apiURL" = "API URL";
+"settings.checkAndDownloadLocalModel" = "Check and Download On-Device Model";
+"settings.checkingAppleSpeechResources" = "Checking Apple speech resources";
+"settings.downloadingLocalModel" = "Downloading on-device model";
+"settings.enterRecognitionLanguage" = "Enter a recognition language code first.";
+"settings.error.cannotSave" = "Couldn't Save Settings";
+"settings.error.emptyBaseURL" = "The API URL for %@ can't be empty.";
+"settings.error.emptyLocalLocale" = "The Apple on-device recognition language can't be empty.";
+"settings.error.emptyModel" = "The model name for %@ can't be empty.";
+"settings.error.emptyPrompt" = "The meeting minutes prompt can't be empty.";
+"settings.error.keychain" = "Couldn't save the API key (Keychain status: %lld).";
+"settings.interfaceLanguage" = "Interface Language";
+"settings.interfaceLanguageFooter" = "Applied to the app interface and date formatting.";
+"settings.interfaceSection" = "Language";
+"settings.localModelReady" = "The on-device recognition model is ready.";
+"settings.localRecognitionDescription" = "Apple speech resources are downloaded on first use. Audio stays on-device for transcription, but meeting minutes still require a cloud model.";
+"settings.meetingMinutes" = "Meeting Minutes";
+"settings.miniMaxDescription" = "MiniMax accepts up to 500 seconds of audio per request. The app splits recordings into approximately 8-minute segments and sends up to 2 at a time.";
+"settings.navigationTitle" = "Voice Minutes Settings";
+"settings.promptSection" = "Meeting Minutes Prompt";
+"settings.provider" = "Provider";
+"settings.providerNote" = "Transcription and meeting minutes can use different providers. Each API key is stored separately in Keychain.";
+"settings.recognitionLanguageCode" = "Recognition Language Code";
+"settings.restoreDefaultPrompt" = "Restore Default Prompt";
+"settings.segmentDescription" = "SRT timestamps require segment-level results. OpenAI uses whisper-1 by default.";
+"settings.summaryModel" = "Minutes Model";
+"settings.transcriptionModel" = "Transcription Model";
+"settings.useAppleLocalTranscription" = "Use Apple On-Device Recognition";
+"settings.voiceRecognition" = "Speech Recognition";
+
+"speech.error.analysisFailed" = "Apple on-device recognition failed: %@";
+"speech.error.audioFileUnavailable" = "On-device recognition couldn't read this audio: %@";
+"speech.error.emptyTranscript" = "Apple on-device recognition returned no usable text.";
+"speech.error.modelUnavailable" = "Couldn't download the Apple on-device speech model: %@. Check your connection and retry, or switch to a cloud provider.";
+"speech.error.simulatorUnsupported" = "Apple on-device speech models aren't supported in the iOS Simulator. Use a physical device, or turn off on-device recognition and choose a cloud provider.";
+"speech.error.unsupportedDevice" = "This device doesn't support Apple SpeechTranscriber on-device recognition.";
+"speech.error.unsupportedLocale" = "Apple on-device recognition doesn't support %@ yet. Try zh-CN or use a cloud provider.";
+
+"status.completed" = "Completed";
+"status.failed" = "Failed";
+"status.pending" = "Pending";
+"status.processing" = "Processing";
+
+"trash.emptyAction" = "Empty";
+"trash.emptyConfirmMessage" = "Every meeting in Recently Deleted will be permanently deleted. This can’t be undone.";
+"trash.emptyConfirmTitle" = "Empty Recently Deleted?";
+"trash.emptyDescription" = "Deleted meetings are kept here temporarily.";
+"trash.emptyTitle" = "Recently Deleted Is Empty";
+
+"sync.audio" = "Sync Recordings";
+"sync.audio.notSynced" = "This recording isn't on this device. Turn on Sync Recordings on the device that recorded it, or play it there.";
+"sync.enable" = "Sync with iCloud";
+"sync.error.network" = "Network unavailable. Changes will sync when you're back online.";
+"sync.error.purged" = "The iCloud data was reset. Turn sync off and on again to re-upload this library.";
+"sync.error.quota" = "iCloud storage is full. Free up space to keep syncing.";
+"sync.footer" = "Syncs folders, minutes, transcripts, and settings across your devices signed in to the same iCloud account. Recordings download on demand when you press play. API keys stay on each device.";
+"sync.lastSync" = "Last synced: %@";
+"sync.status.disabled" = "Sync is off";
+"sync.status.error" = "Sync error";
+"sync.status.noAccount" = "Sign in to iCloud to sync";
+"sync.status.synced" = "Synced";
+"sync.status.syncing" = "Syncing…";
+"sync.status.unavailable" = "iCloud sync is unavailable";
+"sync.title" = "iCloud Sync";
+
+"analysis.action" = "Analyze";
+"analysis.regenerate" = "Re-analyze";
+"analysis.running" = "Analyzing…";
+
+"mark.convert" = "Convert to Key Note";
+"mark.delete" = "Delete Mark";
+"mark.emptyLabel" = "Mark";
+"mark.labelPlaceholder" = "Label (optional)";
+"mark.section" = "Time Marks";
+
+"notes.block.add" = "Add Key Note";
+"notes.block.delete" = "Delete";
+"notes.block.deleteMessage" = "Its text and analysis will be removed.";
+"notes.block.deleteTitle" = "Delete this key note?";
+"notes.block.placeholder" = "Key point…";
+
+"recording.addNote" = "Add Key Note";
+"recording.mark" = "Mark";
+
+"regen.full" = "Re-transcribe & Summarize";
+"regen.needAudio" = "The recording file is required to re-transcribe.";
+"regen.summarizeOnly" = "Re-summarize Only";
+"regen.title" = "Regenerate";
+
+"analysis.markAction" = "Summarize";
+"analysis.markRegenerate" = "Re-summarize";
+
+"settings.analysisPromptFooter" = "Analysis uses the summary model. Time marks are summarized from the transcript around their time point.";
+"settings.autoAnalyzeMarks" = "Auto-summarize time marks";
+"settings.keyPointPromptSection" = "Key Note Analysis Prompt";
+"settings.markPromptSection" = "Time Mark Summary";
+"settings.restoreDefaultKeyPointPrompt" = "Restore Default Prompt";
+"settings.restoreDefaultMarkPrompt" = "Restore Default Prompt";
+
+"analysis.generatedLabel" = "AI Analysis";
+
+"prompt.builtin.minutes" = "
+You are a professional meeting-minutes assistant. Produce minutes strictly from the provided transcript; never add facts that do not appear in it.
+
+Output Markdown with these sections:
+# Meeting Minutes
+## Summary
+## Discussion Points
+## Conclusions & Decisions
+## Action Items
+## Risks & Open Questions
+
+Use a Markdown table for action items with task, owner, and deadline; write “Not specified” for fields the transcript does not provide.
+Merge duplicate information; keep key numbers, proper nouns, and dissenting opinions.
+";
+"prompt.builtin.keyPoint" = "You are a meeting-summary assistant. Summarize and explain the key point based on the meeting transcript.";
+"prompt.builtin.mark" = "
+You are a meeting-summary assistant. Based on the meeting transcript, summarize and explain the discussion around the specified time point:
+what was discussed before and after it, the key conclusions reached, and any action items involved.
+Use only facts that appear in the transcript; never invent. Output Markdown.
+";
+
+"folder.promptMenu" = "Minutes Prompt";
+"folder.useGlobalPrompt" = "Use Global Default";
+
+"settings.addPrompt" = "New Prompt";
+"settings.aiDescriptionPlaceholder" = "Describe the style or focus you want…";
+"settings.aiGeneratePrompt" = "Generate with AI";
+"settings.aiGenerating" = "Generating…";
+"settings.aiPromptName" = "AI Generated";
+"settings.builtinDefault" = "Built-in Default";
+"settings.customPromptName" = "Custom Prompt";
+"settings.globalDefaultPrompt" = "Global Default";
+"settings.promptLibrary" = "Prompt Library";
+"settings.promptName" = "Name";
+"settings.untitledPrompt" = "Untitled Prompt";
+
+"settings.aiGenerateFooter" = "Describe what you want, then generate. AI revises the built-in template and saves it as a new prompt you can edit above. Requires the summary model.";
+"settings.aiGenerateSuccess" = "Generated and selected a new prompt — edit it above.";
+"settings.aiNeedsSummary" = "Configure the summary model and API key above first.";
+
+"settings.promptNameFooter" = "Duplicate names get a number appended automatically.";
+"settings.promptsTitle" = "Prompts";
+
+"settings.generalTitle" = "General";
+
+"settings.analysisPromptsTitle" = "Analysis Prompts";
+"settings.promptMissing" = "Prompt not found";
+"settings.setAsGlobalDefault" = "Use as Global Default";
+
+"settings.analysisTitle" = "Analysis";
+"settings.modelsTitle" = "Models";
